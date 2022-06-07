@@ -1,0 +1,62 @@
+.main-cadastro{
+    
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+.cadastro-container{
+    width: 100%;
+    height: 100%;
+    justify-content: center; 
+    align-items: center;   
+    display: flex;
+    
+
+}
+.cadastro{
+    width: 40%;
+    height:400px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    background-image: url(../pages/img/pexels-kevin-malik-9017408.jpg);
+    background-size: cover;
+    background-position-y:0px ;
+    border-right:2px solid black ;
+}
+.login-area{
+    width: 40%;
+    height: 400px;
+    display: flex;     
+    align-items: center;
+    justify-content: center;
+    background-image: url(../pages/img/pexels-lukas-1420701.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.center-cadastro{
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+   
+    
+}
+.center-cadastro input{  
+    margin-bottom: 5px;     
+    width: 250px;
+    border-radius: 4px;  
+    border-style: dashed;
+}
+
+.btn{
+    display: inline-block;
+    margin: auto;    
+    width: 70px;
+    cursor: pointer;
+    background-color: yellow;
+
+}
+
+ 
